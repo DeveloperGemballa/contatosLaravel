@@ -12,6 +12,11 @@
 </head>
 <body>
     <div class="container">
+        <br>
+        <a href="{{url('contatos/create')}}" class="btn btn-primary">Adicionar contato</a>
+        <hr>
+    </div>
+    <div class="container">
         @yield('content')
     </div>
 </body>
