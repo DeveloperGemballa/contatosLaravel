@@ -17,4 +17,5 @@ use App\Http\Controllers\ContatosController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('contatos/buscar',[ContatosController::class,'buscar']);
 Route::resource('contatos',ContatosController::class);

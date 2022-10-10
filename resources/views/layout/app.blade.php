@@ -13,8 +13,11 @@
 <body>
     <div class="container">
         <br>
-        <a href="{{url('contatos/create')}}" class="btn btn-primary">Adicionar contato</a>
-        <hr>
+        <a href="{{url('contatos/create')}}" class="btn btn-light shadow">Adicionar contato</a> |
+        <a href="{{url('contatos/')}}" class="btn btn-light shadow">Listar</a>
+        <br>
+        <br>
+        <br>
     </div>
     <div class="container">
         @yield('content')
